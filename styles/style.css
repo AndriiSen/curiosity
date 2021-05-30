@@ -23,7 +23,7 @@ body {
 	z-index: 1000;
 }
 
-.active {
+.display-main-content {
 	display: block;
 }
 

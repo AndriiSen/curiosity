@@ -16,7 +16,7 @@ async function sendApiRequest()
 	const API_KEY = "NPvNQgw0giFXo46QkjcjP4r0apSH28oK4TlFfjQF"
 	let response = await fetch(`https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=${API_KEY}`);
 	dataFromNasa = await response.json();
-	mainContent.classList.add("active");
+	mainContent.classList.add("display-main-content");
 }
 //GET DATA FROM NASA BTN
 getImagesButton.addEventListener("click", () =>
